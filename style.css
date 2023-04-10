@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+header {
+  height: 40px;
+  background-color: #333;
+}
+
+main {
+  height: 600px;
+  width: 750px;
+  margin: 0 auto;
+  background-color: ghostwhite;
+}
+
+footer {
+  height: 200px;
+  width: 750px;
+  background-color: greenyellow;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#top {
+  height: 35px;
+  background-color: rgb(141, 215, 244);
+  border-radius: 0 0 10px 10px;
+  margin: 0px 0px 25px 0px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 35px;
+}
+
+#container {
+  height: 410px;
+  padding: 10px;
+  background-color: ghostwhite;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+aside {
+  height: 110px;
+  background-color: ghostwhite;
+  margin-bottom: 60px;
+  margin: 0 15px 60px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  width: 30%;
+  height: 45%;
+  background-color: white;
+  border-radius: 7px;
+  font-family: "Gamja Flower", cursive;
+  font-size: 22px;
+  color: goldenrod;
+  padding: 5px;
+}
+
+#team {
+  width: 470px;
+  height: 100%;
+  background-color: #31999c;
+  color: white;
+  border-radius: 5px;
+  font-family: "Gamja Flower", cursive;
+  font-size: 22px;
+  color: springgreen;
+  padding: 5px;
+}
+
+#hi {
+  width: 230px;
+  height: 100%;
+  background-color: pink;
+  color: black;
+  border-radius: 5px;
+
+  font-family: "Gamja Flower", cursive;
+  font-size: 22px;
+  color: purple;
+  padding: 5px;
+  text-align: center;
+}
+
+img.myphoto {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+}
+
+section p {
+  text-align: center;
+  position: relative;
+}
+
+#movie {
+  padding: 30px;
+  background-image: url("./images/harryPotter.png");
+  background-size: cover;
+  position: relative;
+  height: 45%;
+  width: 30%;
+  text-align: center;
+  z-index: 1;
+}
+
+.movie_sub {
+  top: 0;
+  left: 0;
+
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+#mbti {
+  /* padding: 30px; */
+  background-image: url("./images/entj.png");
+  background-size: cover;
+  /* 부모를 realtive로 하고 */
+  position: relative;
+  color: tomato;
+  height: 45%;
+  width: 30%;
+  text-align: center;
+}
+
+.mbti_sub {
+  /* 자식을 absolute로 하고 */
+  top: 0;
+  left: 0;
+  /* 
+  width: 100%;
+  height: 100%;
+  background-color: rgba(101, 97, 97, 0.4);
+  text-align: center;
+  color: orange; */
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  position: absolute;
+}
+
+#team p {
+  text-align: center;
+}
+#hi span {
+  text-align: center;
+}
+
+#food {
+  padding: 30px;
+}
+
+footer {
+  height: 200px;
+  background-color: white;
+  text-align: center;
+  color: rgb(170, 170, 170);
+  padding: 50px;
+}
+
+#main:hover {
+  transform: scale(1.4);
+  transition: all 0.2s linear;
+}
+
+#info:hover {
+  transform: scale(1.4);
+  transition: all 0.2s linear;
+}
+
+#photo:hover {
+  transform: scale(1.4);
+  transition: all 0.2s linear;
+}
+
+#movie:hover {
+  transform: scale(1.4);
+  transition: all 0.2s linear;
+}
+
+#mbti:hover {
+  transform: scale(1.4);
+  transition: all 0.2s linear;
+}
+
+#food:hover {
+  transform: scale(1.4);
+  transition: all 0.2s linear;
+}
